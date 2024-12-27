@@ -71,6 +71,12 @@ Once the server is running, you can start crawling the product URLs by making a 
     POST http://localhost:3000/api/crawl/start
 
 This request will trigger the crawler to start fetching product URLs for the predefined list of domains.
+    
+    ```json
+    {
+    "domains": ["example1.com", "example2.com"]
+    }
+
 
 ## Notes
 - The crawler detects product URLs by searching for common patterns like /product/, /item/, and /p/. You can customize these patterns in the code as needed for different e-commerce websites.
