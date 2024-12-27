@@ -78,5 +78,5 @@ This request will trigger the crawler to start fetching product URLs for the pre
 
 
 ## Deployment
-Live Demo: The application is hosted on Render.
-Access it here: https://e-commerce-crawler.onrender.com/
+- Live Demo: The application is hosted on Render.
+- Access it here: https://e-commerce-crawler.onrender.com/
